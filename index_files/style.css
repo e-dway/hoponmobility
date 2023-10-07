@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;600;800&family=Poppins:wght@200;500&display=swap');
+:root {
+    --font-1: 'Poppins', sans-serif;
+    --font-2: 'Baloo Bhaijaan 2', cursive;
+    --colore-bianco: #FFFFFF;
+    --colore-nero: #000000;
+    --colore-1: #7A3B89;
+    --colore-2: #E13121;
+    --colore-3: #616368;
+    --colore-4: #F5F7FA;
+    --colore-5: #edf3fa;
+    --colore-6: #622575;
+  }
+
+  body{
+    padding:0;
+    margin: 0;
+    font-family: var(--font-1);
+    color:var(--colore-3);
+    overflow-x: hidden;
+  }
+  body p{
+    font-size:16px;
+    color:var(--colore-3);
+    font-weight: 500;
+  }
+  
+  .stile_titolo_1{
+    font-family: var(--font-2);
+    color:var(--colore-1);
+    font-weight: 800;
+    line-height: 1.1em;
+    margin:0;
+  }
+  
+  .stile_titolo_2{
+    font-family: var(--font-2);
+    color:var(--colore-2);
+    font-weight: 800;
+    line-height: 1.1em;
+    margin:0;
+  }
+  
+  .stile_titolo_3{
+    font-family: var(--font-2);
+    color:var(--colore-1);
+    font-weight: 800;
+    line-height: 1.1em;
+    margin:0;
+
+  }
+  
+  .stile_titolo_4{
+    font-family: var(--font-2);
+    color:var(--colore-bianco);
+    font-weight: 800;
+    line-height: 1.1em;
+    margin:0;
+  }
+  
+  .stile_titolo_5{
+    font-family: var(--font-2);
+    background: -webkit-linear-gradient(#E13121, #B31641);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    line-height: 1.1em;
+    margin:0;
+  }
+
+  .stile_titolo_6{
+    font-size: 22px;
+    font-family: var(--font-2);
+    margin: 15px auto;
+    display: block;
+    color:var(--colore-2);
+  }
+
+
+  @media all and (min-width:992px){
+    .stile_titolo_1{font-size:50px;}
+    .stile_titolo_2{font-size:50px;}
+    .stile_titolo_3{font-size:40px;}
+    .stile_titolo_4{font-size:40px;}
+    .stile_titolo_5{font-size:40px;}
+    .btn_tipo_1{ min-width:150px;}
+    .btn_tipo_2{ min-width:150px;}
+    }
+
+  @media all and (min-width:0) and (max-width:992px){
+    .img_telefono{width:200px;}
+    .stile_titolo_1{font-size:30px;}
+    .stile_titolo_2{font-size:30px;}  
+    .stile_titolo_3{font-size:30px;}  
+    .stile_titolo_4{font-size:30px;}  
+    .stile_titolo_5{font-size:30px;}  
+    .btn_tipo_1{ width:100%;}
+    .btn_tipo_1{ width:100%;}
+    .btn_tipo_2{ width:100%;}  
+    }
+
+
+  .btn_tipo_1,
+  .btn_tipo_2{
+    display: inline-block;
+    margin: 0;
+    text-align:center;
+    text-decoration: none;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+
+.btn_tipo_1{
+    color:var(--colore-bianco);
+    font-weight:normal;
+    background-color:var(--colore-2);
+    padding:15px 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+}
+
+.btn_tipo_1:hover{background-color:var(--colore-1);}
+
+
+.ancora_content{position: relative;display: block;height:1px;}
+.ancora_content div{position: relative;top:-50px;}
+
+.section1_content,
+.section2_content,
+.section3_content,
+.section4_content,
+.section5_content{
+  z-index: 1;
+}
