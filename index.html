@@ -394,7 +394,7 @@ $(document).ready(function(){
         <div class="row justify-content-center">
             <div class="col-lg-7 my-auto">
                 <hgroup>
-                <h1 class="stile_titolo_1">Connettività e Scoperta Facile con Sharing Mobility IoT:</h1>
+                <h1 class="stile_titolo_1">Esplorare i territori ovunque ti trovi:</h1>
                 <h2 class="stile_titolo_2">la nostra piattaforma IoT e App di Sharing Mobility in Whitelabel </h2>
                 </hgroup>
                 <p>Uno strumento che ti consente di noleggiare un mezzo di trasporto e allo stesso tempo di scoprire i tesori nascosti nelle tue vicinanze mentre ti sposti.</p>
@@ -1468,11 +1468,23 @@ $(document).ready(function(){
 
     .footer_nav{
         text-align:center;
-        padding: 50px 5px;
+        padding: 50px 5px 25px 5px;
     }
 
 
     .footer_nav a{
+       color:var(--colore-bianco)!important;
+       padding: 5px 25px;
+       text-decoration:none;
+    }
+
+    .footer_nav_2{
+        text-align:center;
+        padding: 10px 5px 25px 5px;
+    }
+
+
+    .footer_nav_2 a{
        color:var(--colore-bianco)!important;
        padding: 5px 25px;
        text-decoration:none;
@@ -1581,7 +1593,7 @@ $(document).ready(function(){
     }
 </style>
 <footer>
-<div class="container-fluid">
+<div class="container-fluid" style="position: relative;z-index:2;">
     <div class="row justify-content-center">
         <div class="col-lg-10">
             <a href="index.html" class="logo_footer">
@@ -1595,21 +1607,80 @@ $(document).ready(function(){
             <a href="index.html/#section4">Vantaggi</a> 
             <a href="index.html/#section5">Contattaci</a> 
         </div>
+        <div class="col-lg-10 footer_nav_2">
+            <a href="mailto:info@hoponmobility.com" style="color:#FFF!important;" target="_blank">info@hoponmobility.com</a>
+        </div>
         <span class="bordino_finale"></span>
         <div class="col-lg-10 riga_finale_footer">
             <h6>Hop on Mobility</h6>
-            <p>Via Borgo Ognissanti 65R - -50123 - Firenze</p>
-            <p><a href="mailto:info@hoponmobility.com" style="color:#FFF!important;" target="_blank">info@hoponmobility.com</a></p>
-            <p>P.IVA: 12824480011  |  indirizzomail@mail.mail  |  PEC indirizzopec@pec.pec</p>
-            <p>All rights reserved</p>
+            <p>----</p>
+            <p>E-DWAY SRL - Via Borgo Ognissanti 65/r, Firenze - 50123 Firenze (FI)</p>
+            <p>P.IVA e C.F.: 07000670484 - ISCRITTA ALLA CCIAA DI FIRENZE
+            </p>
+            <p>NUMERO REA FI-672226 - CAP. SOC.: € 60.000,00 i.v. - PEC e-dway@pec.it</p>
         </div>
         <div class="col-lg-10 riga_privacy_footer">
-            <a href="#">Privacy Policy</a> <span>|</span> <a href="#">Cookie Policy</a>
+            <a href="https://code.atriumnetwork.it/privacy-policy/?codicePrivacy=308124847231126928223531146131" target="_parent" title="Privacy Policy" data-atrium-privacy-id="308124847231126928223531146131" class="atriumPrivacyLink">Privacy Policy</a> <span>|</span>  <a href="https://code.atriumnetwork.it/cookies-policy/?codiceCookies=628482595023519029027504262384" target="_parent" title="Cookies Policy" data-atrium-cookies-id="628482595023519029027504262384" class="atriumCookiesLink">Cookies Policy</a>
         </div>
     </div>
 </div>
 </footer>
+
+
+<script type="text/javascript">
+
+    (function(w, d) {
+        if(!d.getElementById('atriumPrivacyScript')){
+            var loader = function() {
+                var s = d.createElement("script"),
+                    tag = d.getElementsByTagName("script")[0];
+                s.src = 'https://code.atriumnetwork.it/public/atrium.privacy.js?t='+Math.floor(Date.now() / 1000);
+                s.id = 'atriumPrivacyScript';
+                tag.parentNode.insertBefore(s, tag);
+            };
+
+            if (w.addEventListener) {
+                w.addEventListener("load", loader, false);
+            } else if (w.attachEvent) {
+                w.attachEvent("onload", loader);
+            } else {
+                w.onload = loader;
+          }
+        }
+    })(window, document);
+
+</script>
+
+
+<script type="text/javascript">
+    (function(w, d) {
+        var l='it';
+        var theme=1;
+
+        if(!d.getElementById('atriumCookiesScript')){
+            var loader = function() {
+                var s = d.createElement("script"),
+                    tag = d.getElementsByTagName("script")[0];
+                s.src = 'https://code.atriumnetwork.it/public/atrium.cookies.js?t='+Math.floor(Date.now() / 1000);
+                s.id = 'atriumCookiesScript';
+                s.setAttribute('data-lang',l);
+                s.setAttribute('data-theme',theme);
+                s.setAttribute('data-atrium-cookies-id','628482595023519029027504262384');
+                tag.parentNode.insertBefore(s, tag);
+            };
+
+            if (w.addEventListener) {
+                w.addEventListener("load", loader, false);
+            } else if (w.attachEvent) {
+                w.attachEvent("onload", loader);
+            } else {
+                w.onload = loader;
+            }
+        }
+    })(window, document);
+</script>
+
 <script src="./index_files/scripts.js.download"></script>
 
-
-</body></html>
+</body>
+</html>
