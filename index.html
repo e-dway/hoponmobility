@@ -41,11 +41,12 @@
 
 
     .nav_content{
-        padding:55px 5px;
+        padding:30px 5px;
         position: fixed;
         top:0;
         left:0;
         width:100%;
+        background-color:var(--colore-bianco);
         z-index: 5;
         -webkit-transition: all 0.2s linear;
         -moz-transition: all 0.2s linear;
@@ -53,7 +54,7 @@
     }
 
     .nav_content.nav_contentUpdate{
-        padding:25px 5px;
+        padding:20px 5px;
         background-color:var(--colore-bianco);
         -webkit-transition: all 0.2s linear;
         -moz-transition: all 0.2s linear;
@@ -72,7 +73,7 @@
     .logo_content a{display: block}
     .logo_content a img{
         display: block;
-        width:310px;
+        width:270px;
         height:auto;
         -webkit-transition: all 0.2s linear;
         -moz-transition: all 0.2s linear;
@@ -120,17 +121,17 @@
             <div class="col-lg-10">
                 <div class="row">
                     <div class="col-lg-3 my-auto logo_content">
-                        <a href="https://progetti.dgnet.work/hoponmobility/">
+                        <a href="index.html">
                         <img src="./index_files/logo_1.svg">
                         </a>   
                     </div>
                     <div class="col-lg-9 my-auto navigation_content">
                         <nav>
-                            <a href="https://progetti.dgnet.work/hoponmobility/#section1">Home</a> 
-                            <a href="https://progetti.dgnet.work/hoponmobility/#section2">Key Features</a> 
-                            <a href="https://progetti.dgnet.work/hoponmobility/#section3">Soluzioni</a> 
-                            <a href="https://progetti.dgnet.work/hoponmobility/#section4">Vantaggi</a> 
-                            <a href="https://progetti.dgnet.work/hoponmobility/#section5" class="final_cta">Contattaci</a> 
+                            <a href="index.html/#section1">Home</a> 
+                            <a href="index.html/#section2">Caratteristiche</a> 
+                            <a href="index.html/#section3">Soluzioni</a> 
+                            <a href="index.html/#section4">Vantaggi</a> 
+                            <a href="index.html/#section5" class="final_cta">Contattaci</a> 
                         </nav>
                     </div>
                 </div>
@@ -148,7 +149,7 @@ jQuery(document).ready(function(){
 
 		jQuery(window).scroll(function(){
 
-				if (jQuery(this).scrollTop() > 70) {
+				if (jQuery(this).scrollTop() > 20) {
 					jQuery('.logo_content').addClass("logo_contentUpdate");
 					jQuery('.nav_content').addClass("nav_contentUpdate");
 				 	} else{
@@ -292,7 +293,7 @@ jQuery(document).ready(function(){
 
 </style>
 <div class="mobile_nav_content">
-    <a href="https://progetti.dgnet.work/hoponmobility/" class="logo_mobile">
+    <a href="index.html" class="logo_mobile">
         <img src="./index_files/logo_1.svg">
     </a> 
     <span class="btn_mobile">
@@ -304,11 +305,11 @@ jQuery(document).ready(function(){
     </span>
     <div class="nav_mobile_link">
         <span id="nav_mobile_link_content">
-        <a href="https://progetti.dgnet.work/hoponmobility/#section1">Home</a> 
-        <a href="https://progetti.dgnet.work/hoponmobility/#section2">Key Features</a> 
-        <a href="https://progetti.dgnet.work/hoponmobility/#section3">Soluzioni</a> 
-        <a href="https://progetti.dgnet.work/hoponmobility/#section4">Vantaggi</a> 
-        <a href="https://progetti.dgnet.work/hoponmobility/#section5">Contattaci</a> 
+        <a href="index.html/#section1">Home</a> 
+        <a href="index.html/#section2">Caratteristiche</a> 
+        <a href="index.html/#section3">Soluzioni</a> 
+        <a href="index.html/#section4">Vantaggi</a> 
+        <a href="index.html/#section5">Contattaci</a> 
         </span>
     </div>
 </div>
@@ -396,8 +397,8 @@ $(document).ready(function(){
                 <h1 class="stile_titolo_1">Connettività e Scoperta Facile con Sharing Mobility IoT:</h1>
                 <h2 class="stile_titolo_2">la nostra piattaforma IoT e App di Sharing Mobility in Whitelabel </h2>
                 </hgroup>
-                <p>Uno strumento che ti consente di noleggiare un mezzo di trasporto e allo stesso tempo di scoprire i tesori nascosti delle tue vicinanze mentre ti sposti.</p>
-                <a href="https://progetti.dgnet.work/hoponmobility/#section2" class="btn_tipo_1">scopri di più</a>
+                <p>Uno strumento che ti consente di noleggiare un mezzo di trasporto e allo stesso tempo di scoprire i tesori nascosti nelle tue vicinanze mentre ti sposti.</p>
+                <a href="index.html/#section2" class="btn_tipo_1">scopri di più</a>
             </div>
             <div class="col-lg-4">
                 <img src="./index_files/telefono.png" class="img_telefono">
@@ -530,8 +531,8 @@ $(document).ready(function(){
   <div class="container">
     <div class="row justify-content-center">
         <div class="col-lg-8 txt_intro">
-            <h3 class="stile_titolo_3">Lorem ipsum dolor sit amet</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque ultrices malesuada. Sed lacinia dolor ac aliquet consequat. Nulla pretium viverra tellus dignissim fringilla. </p>
+            <h3 class="stile_titolo_3">La Rivoluzione Green della mobilità Contemporanea</h3>
+            <p>Tanti i vantaggi nel promuovere il territorio e proporre una mobilità sostenibile. </p>
         </div>
     </div>
     <div class="row justify-content-center">
@@ -585,7 +586,7 @@ $(document).ready(function(){
   <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-lg-4 my-auto colonna_sx_problemi">
-            <h4 class="stile_titolo_3">Quali problemi risolve la nostra applicazione?</h4>
+            <h4 class="stile_titolo_3">Quali sono i Vantaggi nello scegliere la nostra soluzione Hop on Ride?</h4>
         </div>
         <div class="col-lg-1 my-auto colonna_problemi"> <span></span></div> 
         <div class="col-lg-4 my-auto">
@@ -833,8 +834,10 @@ $(document).ready(function(){
         <div class="col-lg-6 colonna_scegliere my-auto">
 
         <div class="col-lg-12 riga_titoli">
-            <h6 class="stile_titolo_5">Lorem ipsum dext dolorem</h6>
+            <h6 class="stile_titolo_5">Hop on Ride l' Unica soluzione di Mobilità</h6>
             <p>Piattaforma e Applicazione di sharing e micromobilità fornita in forma white label che permette la gestione nella stessa aera geografica di flotte diverse sia per regole e impostazioni che per tipologia di mezzi.
+                Punti d’interesse personalizzati grazie alle informazioni ricevute dall’interazione con l’utente e all’AI
+                Esperienza personalizzata del territorio creando ogni volta percorsi diversi.
             </p>
         </div> 
             
@@ -1053,7 +1056,7 @@ $(document).ready(function(){
                         <img src="./index_files/frecce_giu.png" class="frecce_giu">
                     </div>
                     <div class="col-lg-12">
-                    <a href="https://progetti.dgnet.work/hoponmobility/" class="logo_vantaggi">
+                    <a href="index.html" class="logo_vantaggi">
                         <img src="./index_files/logo_1.svg">
                     </a>
                     </div>
@@ -1280,7 +1283,7 @@ $(document).ready(function(){
 
   #form_contatti input[type=text]:focus,
   #form_contatti textarea:focus,
-  #form_contatti input[type=email]:focus, {
+  #form_contatti input[type=email]:focus {
 	border:solid 1px var(--colore-1);
   }
 
@@ -1315,7 +1318,7 @@ $(document).ready(function(){
                 <div class="col-lg-12">
 
 
-                    <form id="form_contatti" action="https://progetti.dgnet.work/hoponmobility/mailer.php" method="POST" onsubmit="return verifica_dati();" enctype="multipart/form-data"><input name="muro" type="hidden" value="">
+                    <form id="form_contatti" action="" method="POST" onsubmit="return verifica_dati();" enctype="multipart/form-data"><input name="muro" type="hidden" value="">
                     <input name="muro2" type="hidden" value="">
                     <input name="replyPage" type="hidden" value="risposta.php">
 
@@ -1349,7 +1352,7 @@ $(document).ready(function(){
 
                     <div class="col-lg-12 txt_privacy">
                         <p>
-                            Ho preso visione della <a href="https://progetti.dgnet.work/hoponmobility/#">Privacy Policy</a> ed acconsento al trattamento dei miei dati personali                     
+                            Ho preso visione della <a href="#">Privacy Policy</a> ed acconsento al trattamento dei miei dati personali                     
                             <label class="radio iBlock">
                                 <input type="radio" name="affirmative" value="yes" id="consenso_contatti_si">
                                 <span><strong>Si *</strong></span>
@@ -1434,7 +1437,7 @@ $(document).ready(function(){
     $(document).ready(function(){
       setTimeout(function() {
       $('#form_contatti').prepend('<input name="muro" type="hidden" value="" />');
-      $('#form_contatti').attr({'action':'mailer.php'});
+      $('#form_contatti').attr({'action':'https://progetti.dgnet.work/hoponmobility/mailer.php'});
         }, 2000);
         });
     
@@ -1581,25 +1584,27 @@ $(document).ready(function(){
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-lg-10">
-            <a href="https://progetti.dgnet.work/hoponmobility/" class="logo_footer">
+            <a href="index.html" class="logo_footer">
                 <img src="./index_files/logo_1.svg">
             </a>
         </div>
         <div class="col-lg-10 footer_nav">
-            <a href="https://progetti.dgnet.work/hoponmobility/#section1">Home</a> 
-            <a href="https://progetti.dgnet.work/hoponmobility/#section2">Key Features</a> 
-            <a href="https://progetti.dgnet.work/hoponmobility/#section3">Soluzioni</a> 
-            <a href="https://progetti.dgnet.work/hoponmobility/#section4">Vantaggi</a> 
-            <a href="https://progetti.dgnet.work/hoponmobility/#section5">Contattaci</a> 
+            <a href="index.html/#section1">Home</a> 
+            <a href="index.html/#section2">Caratteristiche</a> 
+            <a href="index.html/#section3">Soluzioni</a> 
+            <a href="index.html/#section4">Vantaggi</a> 
+            <a href="index.html/#section5">Contattaci</a> 
         </div>
         <span class="bordino_finale"></span>
         <div class="col-lg-10 riga_finale_footer">
-            <h6>Ragione sociale S.r.l.</h6>
+            <h6>Hop on Mobility</h6>
+            <p>Via Borgo Ognissanti 65R - -50123 - Firenze</p>
+            <p><a href="mailto:info@hoponmobility.com" style="color:#FFF!important;" target="_blank">info@hoponmobility.com</a></p>
             <p>P.IVA: 12824480011  |  indirizzomail@mail.mail  |  PEC indirizzopec@pec.pec</p>
             <p>All rights reserved</p>
         </div>
         <div class="col-lg-10 riga_privacy_footer">
-            <a href="https://progetti.dgnet.work/hoponmobility/#">Privacy Policy</a> <span>|</span> <a href="https://progetti.dgnet.work/hoponmobility/#">Cookie Policy</a>
+            <a href="#">Privacy Policy</a> <span>|</span> <a href="#">Cookie Policy</a>
         </div>
     </div>
 </div>
